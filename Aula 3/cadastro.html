@@ -8,23 +8,51 @@
 <body>
     <form action="/cadastro.php" method="post">
         <fieldset class="dados_da_pessoa">
-            <label for="Name">Nome:</label>
-            <input type="text">
+            <ul>
+                <li>
+                    <label for="Name">Nome:</label>
+                    <input type="text" required maxlength="100"> <br>
+                </li>   
+                <li>
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" required maxlength="100"><br>
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="email" required><br>
+                </li>
+                <li> 
+                    <label for="Nascimento">Data de Nascimento</label>
+                    <input type="Date"><br>
+                </li>
+                <li>
+                    <label for="sex">Sexo</label>
             
-            <label for="sobrenome">Sobrenome</label>
-            <input type="text">
+                    <input id="sex_masculino" type="radio" name="sexo" value="1">
+                    <label for="sex_masculino">Masculino</label>
             
-            <label for="email">Email</label>
-            <input type="email">
-            
-            <label for="Nascimento">Data de Nascimento</label>
-            <input type="Date">
-
-            <label for="sex">Sexo</label>
-            <input type="radio">
-            <br>
-            <input type="submit">
-            <input type="reset">
+                    <input id="sex_feminino" type="radio" name="sexo" value="2">
+                    <label for="sex_feminino">Feminino</label> <br> 
+                </li>
+                <li>
+                    <label for="endereco">Endereço</label>
+                    <input type="text" maxlength="200">
+                </li>
+                <li>
+                    <label for="cep">CEP</label>
+                    <input type="text" maxlength="10">
+                </li>
+                <li>
+                    <label for="color">Cor favorita</label>
+                    <input type="color">
+                </li>
+                <li>
+                    <label for="uf">UF</label>
+                    <input type="select">
+                </li>
+                <input type="submit">
+                <input type="reset">
+            </ul>    
         </fieldset>
     </form>
 </body>
