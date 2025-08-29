@@ -1,12 +1,20 @@
+body{
+    border: 2px;
+    width: auto;
+    border-left: 0px;
+}
+
 .form{
-    background-color: aqua;
-    height: 250px;
-    width: 350px;
+    background-color: rgb(192, 190, 190);
 }
 .dados-principais{
-    background-color: blue;
+    background-color: rgb(64, 64, 179);
 }
 
 .dados-secundarios, .dados-outros{
     background-color: grey;
+}
+
+ul{
+    list-style-type: none;
 }
