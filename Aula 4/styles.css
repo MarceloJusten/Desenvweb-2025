@@ -1,0 +1,12 @@
+.form{
+    background-color: aqua;
+    height: 250px;
+    width: 350px;
+}
+.dados-principais{
+    background-color: blue;
+}
+
+.dados-secundarios, .dados-outros{
+    background-color: grey;
+}
