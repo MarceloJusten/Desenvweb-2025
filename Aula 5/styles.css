@@ -1,0 +1,26 @@
+.campo_resultado{
+    text-align: center;
+    width: 150px;
+    height: 60px;
+}
+
+.resultado_negativo{
+    background-color: red;
+}
+
+.resultado_0{
+    background-color: gray;
+}
+
+.resultado_positivo{
+    background-color: green;
+}
+
+
+fieldset{
+    height: 320px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

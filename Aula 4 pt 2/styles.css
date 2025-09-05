@@ -1,0 +1,23 @@
+.user_pass_fail{
+    border: 2px solid red;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset{
+    height: 250px;
+    width: 150px;
+}
+
+body{
+    justify-content: center;
+    display: flex;
+}
+
+input{
+    text-align: center;
+}
