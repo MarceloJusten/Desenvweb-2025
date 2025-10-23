@@ -6,7 +6,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $soma = $v1 + $v2 + $v3;
 
-    // Verificações em ordem de prioridade
     if ($v1 > 10) {
         echo "<p style='color: blue;'>Resultado: $soma</p>";
     } elseif ($v2 < $v3) {
@@ -17,4 +16,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<p>Resultado: $soma</p>";
     }
 }
+
 ?>
